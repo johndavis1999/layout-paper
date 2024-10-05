@@ -8,7 +8,7 @@ import Settings from '../components/Settings';
 function BottomTabs({ navigation }) {
   const [index, setIndex] = React.useState(0);
   const [routes] = React.useState([
-    { key: 'home', title: 'Home', focusedIcon: 'home', unfocusedIcon: 'home-outline' },
+    { key: 'home', title: 'Inicio', focusedIcon: 'home', unfocusedIcon: 'home-outline' },
     { key: 'notifications', title: 'Notificaciones', focusedIcon: 'bell', unfocusedIcon: 'bell-outline' },
     { key: 'settings', title: 'Configuración', focusedIcon: 'cog', unfocusedIcon: 'cog-outline' },
   ]);

@@ -7,7 +7,7 @@ import Modulo from '../components/Modulo'; // Componente Modulo
 import { DrawerContentScrollView, DrawerItemList } from '@react-navigation/drawer';
 
 const Drawer = createDrawerNavigator();
-const logo = require('../../assets/favicon.png'); 
+const logo = require('../../assets/img/logo_horizontal.png'); 
 
 function CustomDrawerContent(props) {
   return (
@@ -27,7 +27,7 @@ function DrawerNavigator() {
       drawerContent={CustomDrawerContent} // Usar el contenido personalizado
     >
       <Drawer.Screen 
-        name="Home" 
+        name="Inicio" 
         component={BottomTabs} 
         options={{ headerShown: true }} // Mostrar el Drawer
       />
@@ -46,7 +46,7 @@ const styles = StyleSheet.create({
         padding: 16, // Ajusta el padding según necesites
     },
     logo: {
-        width: 100, // Ajusta el ancho según necesites
+        width: 250, // Ajusta el ancho según necesites
         height: 100, // Ajusta la altura según necesites
     },
 });

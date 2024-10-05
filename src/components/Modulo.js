@@ -10,7 +10,7 @@ const Modulo = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get('https://capacitaciones.app.edusnapec.com/api');
+        const response = await axios.get('http://192.168.56.216:8000/desarrollo/api');
         setMessage(response.data.message); // Guardar el mensaje en el estado
       } catch (err) {
         setError(err.message); // Guardar el error en el estado

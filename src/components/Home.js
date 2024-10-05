@@ -4,7 +4,7 @@ import { View, Text, Button, StyleSheet } from 'react-native';
 const Home = ({ navigation }) => {
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Bienvenido al Home</Text>
+      <Text style={styles.title}>Pantalla de Inicio</Text>
       <Button title="Ir a Módulo" onPress={() => navigation.navigate('Modulo')} />
     </View>
   );
